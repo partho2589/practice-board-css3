@@ -1,0 +1,170 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital@1&family=Poppins:wght@400;500&family=Ubuntu&display=swap');
+/* common style  */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: wheat;
+}
+/*---------------
+ header style 
+ ----------------*/
+ nav{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+nav ul {
+    display: flex;}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 0 20px;
+}
+nav li:hover{
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+nav ul .fa-user{
+    margin-left: 1000px;
+    font-size: 30px;
+}
+    nav .fa-user:hover{
+        background-color: lightskyblue;
+        border-radius: 100px;
+    }
+ 
+main{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .container{
+        background-color: whitesmoke;
+        width: 870px;
+        padding: 30px;
+        margin-top: 21px;
+        border-radius: 10px;
+    }
+  
+/* top player style */
+.section-title{
+    color: #562EFF;
+}
+.players{
+display: grid;
+margin-bottom: 30px;
+grid-template-columns: repeat(3, 1fr);
+align-items: center;
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.player img{
+    width: 60px;
+    
+   
+}
+.player-name{
+    font-size: 18px;
+   margin-left: 30px;
+      
+  }
+
+  /* top blog style */
+  .top-blog{
+      display: block;
+  }
+  .blog-title{
+      color:#562EFF ;
+  }
+  .blogs{
+      display: grid;
+      grid-template-columns: repeat( 2, 1fr);
+      
+  }
+.blog{
+    display: flex;
+    }
+.blog .blog-info{
+    margin-left: 30px;
+   
+}    
+article img{
+    width: 177px;
+height: 117px;
+}
+.blog-info{
+    margin-bottom: 30px;
+}
+.bloge-aytho{ font-size: 16px;
+}
+.blog a { 
+   text-decoration: none;
+   background-color: rgba(160, 137, 224, 0.748);
+   border-radius: 5px;
+   padding: 3px;
+}
+ /*---------------------- 
+    letest course 
+-----------------------*/
+    
+
+   .letest-courses{
+       display: block;
+       width: 870px;
+       background-color:whitesmoke;
+       padding: 30px;
+       margin-top: 50px;
+       border-radius: 10px;
+   }
+   .course-title{
+       font-size: 24px;
+       color:#562EFF ;
+       margin-bottom: 10px;
+   }
+.courses{
+    display:flex;
+    
+    
+}
+.course{
+    font-size: 20px;
+}
+.course img{
+    width: 254px;
+height: 104px;
+}
+.coruse-detels{
+    margin-left: 20px;
+}
+.coruse-detels h3{
+    font-size: 20px;
+    
+}
+.course-info{
+    display: flex;
+}
+.fa-star{
+    font-size: 15px;
+    color: #FFC014;
+}
+.clock{
+    color: firebrick;
+    margin-left: 20px;
+}
+
+.time{
+    margin-left: 20px;
+}
+#star-color{
+    color: black;
+}
+/*---------------- 
+footer style 
+-------------*/
+footer  {
+    background-color: lightseagreen;
+
+   text-align: center;
+}
